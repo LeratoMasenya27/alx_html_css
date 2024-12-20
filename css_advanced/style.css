@@ -1,0 +1,35 @@
+body{
+    background-image: url('images/Object.png');
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+
+}
+
+nav{
+    style= display: flex; 
+    justify-content: flex-end;
+    flex: :right;
+}
+
+button{
+    background-color: rgb(193, 112, 255);
+    padding: 20px 30px;
+    border-radius: 30px;
+    border: none;
+    margin-left: 500px;
+
+}
+ 
+button: :hover{
+    transition: 0.005s
+}
+
+.viv{
+    width: 100%;
+    height: 800px;
+    margin: 34px;
+    display: flex
+    align: center
+    align-items: center;
+    flex-direction: row;
+}

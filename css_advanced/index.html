@@ -9,14 +9,15 @@
     <link rel="stylesheet" href="css_reset.css">
     
 </head>
+
 <body>
     <header>
+        <img src="images/logo.png" alt="logo"align= "left">
         <nav>
-            <img src="images/logo.png" alt="logo">
-          
-                <a href="#">COURSE</a>
-                <a href="#">PRICING</a>
-                <a href="#">LOGIN</a>
+            
+                <a href="#" style="color: white;">COURSE</a>
+                <a href="#" style="color: white;">PRICING</a>
+                <a href="#" style="color: white;">LOGIN</a>
            
         </nav>
         
@@ -24,51 +25,58 @@
     <main>
         <section>
             <div>
-                <h1 style="color:white">Get schooled</h1>
-                <span>SMILES</span>
-                <span>GRIN</span>
-                <span>LAUGH</span>
+                <h1 style="color:white" class="title">Get schooled</h1>
+                <p style=color:white; class="tagline">SMILES GRIN LAUGH</p>
                 <button style= "color: white";>REGISTER FOR FREE</button>
             </div>
+
+            <!--Learn from the pros-->
+
             <div>
-                <h2><span style="color:rgb(193, 112, 255)">Learn </span> from the pros</h2>
-                <div>
-                    <div>
+                <h2><span style="color:rgb(193, 112, 255)">Learn </span><span style="color: rgb(171, 174, 179);"> from the pros</span></h2>
+                <div class="pros-container">
+                    <div class="pro-card">
                         <img src="images/1.png" alt=""; width="100px">
-                        <h3>Phillip Massey</h3>
-                        <p>« Smile of the year » 2018 - 2019</p>
+                        <h3 style="color:rgb(255, 255, 255)">Phillip Massey</h3>
+                        <p style="color:rgb(255, 255, 255)">« Smile of the year » <br> 2018 - 2019</p>
                     </div>
-                    <div>
+                    <div class="pro-card">
                         <img src="images/3.png" alt=""; width="100px>
-                        <h3>Nannie Lawrence</h3>
-                        <p>Best « little smile » 2017</p>
+                        <h3 style="color:rgb(255, 255, 255)">Nannie Lawrence</h3>
+                        <p style="color:white">Best « little smile » <br>2017</p>
                     </div>
-                    <div>
-                        <img src="images/2.png" alt=""; width="100px>
-                        <h3>Bruce Walters</h3>
-                        <p>Best « Friend Smile » live performance 2019</p>
+                    <div class="pro-card">
+                        <img src="images/2.png" alt=""; width="100px"; class="img1">
+                        <h3 style="color:white">Bruce Walters</h3>
+                        <p style="color:rgb(255, 255, 255)">Best « Friend Smile » <br>live performance 2019</p>
                     </div>
-                    <div>
+                    <div class="pro-card">
                         <img src="images/4.png" alt=""; width="100px>
-                        <h3>Henry Hughes</h3>
-                        <p>« 24h smiles » winner 2016 - 2019</p>
+                        <h3 style="color:rgb(255, 255, 255)">Henry Hughes</h3>
+                        <p style="color:rgb(255, 255, 255)">« 24h smiles » winner <br>2016 - 2019</p>
                     </div>
                 </div>
             </div>
         </section>
-        <section>
+
+        <!--Pink Section-->
+
+        <section class="pink-section">
             <div>
-                <img src="images/5.png" alt="">
+                <img src="images/5.png" alt=""; class="pink-img" >
             </div>
             <div>
-                <blockquote>« Those tutorials are concise and go straight to the point. I can’t think of a better place to learn smiling. And it’s so fun!</blockquote>
+                <blockquote>« Those tutorials are concise and go straight to the point. I can’t think of a better <br> place to learn smiling. And it’s so fun!</blockquote>
                 <h3>Person Name</h3>
                 <P>weather presenter</P>
             </div>
         </section>
-        <section>
+
+        <!--Tutorials-->
+
+        <section  class="tutorial-section">
             <h2>Most <span style="color:rgb(193, 112, 255)">popular</span>tutorials</h2>
-            <div>
+            <div class="tutorial-card">
                 <img src="images/9.png" alt="images">
                 <h3>Diagonal Smile</h3>
                 <p>Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod.</p>
@@ -85,7 +93,7 @@
                 </div>
                 <p style="color:rgb(193, 112, 255) ;">8 min</p>
             </div>
-            <div>
+            <div class="tutorial-card">
                 <img src="images/6.png" alt="images">
                 <h3>Happy Smile</h3>
                 <p>Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod.</p>
@@ -102,7 +110,7 @@
                 </div>
                 <p style="color:rgb(193, 112, 255) ;">8 min</p>
             </div>
-            <div>
+            <div class="tutorial-card">
                 <img src="images/8.png" alt="images">
                 <h3>Natural Smile</h3>
                 <p>Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod.</p>
@@ -119,7 +127,7 @@
                 </div>
                 <p style="color:rgb(193, 112, 255) ;">8 min</p>
             </div>
-            <div>
+            <div class="tutorial-card">
                 <img src="images/7.png" alt="">
                 <h3>Sad Smile</h3>
                 <p>Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod.</p>
@@ -137,7 +145,10 @@
                 <p style="color:rgb(193, 112, 255) ;">8 min</p>
             </div>
         </section>
-        <section>
+
+        <!--Free Membership-->
+
+        <section class="membership">
             <h2><span style="color:rgb(193, 112, 255)">Free</span> membership</h2>
             <div>
                 <img src="images/smile.png" alt="">
@@ -161,18 +172,20 @@
             </div>
             <button style= "color: white">REGISTER FOR FREE</button>
         </section>
-        <section>
+
+        <!--FAQ Section-->
+        <section class="faq-section">
             <h2>F.A.Q</h2>
-            <div>
+            <div class="faq-container">
                 <div>
-                    <div>
+                    <div class="faq">
                         <h3>How does this work?</h3>
                     </div>
                     <div>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                     </div>
 
-                    <div>
+                    <div class="faq">
                         <h3>How does this work?</h3>
                     </div>
                     <div>
@@ -180,13 +193,13 @@
                     </div>
                 </div>
                 <div>
-                    <div>
+                    <div class="faq">
                         <h3>How does this work?</h3>
                     </div>
                     <div>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                     </div>
-                    <div>
+                    <div class="faq">
                         <h3>How does this work?</h3>
                     </div>
                     <div>
@@ -196,17 +209,18 @@
             </div>
         </section>
     </main>
+
     <footer>
         <section>
             <div>
-                <img src="images/logo.png" alt="logo">
-                <div>
+                <img src="images/logo.png" alt="logo" align="left">
+                <div class="social-links">
                     <i class="fa-brands fa-facebook"></i>
                     <i class="fa-brands fa-twitter"></i>
                     <i class="fa-brands fa-instagram"></i>
                 </div>
             </div>
-            <p>©smileschool 2020</p>
+            <p style="color:rgb(51, 64, 79)"; align-text: bottom>©smileschool 2020</p>
         </section>
     </footer> 
 </body>

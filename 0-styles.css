@@ -1,0 +1,30 @@
+body{
+    background-image: url(images/headphones_hero_1.jpg);
+    background-attachment: scroll;
+    font-family: SourceSansPro;
+    src: url(fonts/SourceSansPro-Black.otf);
+    src: url(fonts/spincycle_ot.otf); 
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+}
+
+section{
+    color: white;
+    text-align: center;
+}
+
+button{
+    color: white;
+    background-color: rgb(255, 102, 102);
+    padding: 20px 30px;
+    border-radius: 50px;
+    border: none;
+}

@@ -22,7 +22,10 @@ nav a {
     color: #fff;
     text-decoration: none;
     margin: 0 15px;
-    
+}
+
+nav a:hover{
+    color: red;
 }
 
 /* Hero Section */
@@ -67,6 +70,12 @@ button{
 }
 .result-section p{
     padding: 50px 50px;
+}
+.result-details-section h2:hover{
+    color: red;
+}
+.result-details-section p:hover{
+    color: red;
 }
 
 /* Contact Form */

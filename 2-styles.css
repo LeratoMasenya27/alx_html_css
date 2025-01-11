@@ -46,3 +46,24 @@ button{
     border-radius: 50px;
     border: none;
 }
+
+/* What We Do Section */
+.wwd {
+    background-color: white;
+    padding: 80px 50px;
+}
+.wwd-icons img {
+    margin: 10px;
+}
+
+/* Results Section */
+.result-section {
+    padding: 80px 50px;
+    background-image: url(images/headphones_hero_2.jpg);
+}
+.result-section h2{
+    padding: 20px 50px;
+}
+.result-section p{
+    padding: 50px 50px;
+}

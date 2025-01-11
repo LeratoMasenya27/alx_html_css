@@ -1,0 +1,118 @@
+/* General Styles */
+body {
+    font-family: SourceSansPro;
+    src: url(fonts/SourceSansPro-Black.otf);
+    src: url(fonts/spincycle_ot.otf); 
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    color: white;
+    text-align: center;
+}
+
+/* Header Styles */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-image: url(images/headphones_hero_1.jpg);
+}
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    
+}
+
+/* Hero Section */
+.hero {
+    background: url(images/headphones_hero_1.jpg) no-repeat center center/cover;
+    padding: 100px 20px;
+}
+.hero h1 {
+    margin-top: 100px ;
+}
+.hero h2{
+    font-weight: normal;
+}
+.hero p{
+    padding-top: 50px;
+}
+
+button{
+    color: white;
+    background-color: rgb(255, 102, 102);
+    padding: 100px 100px;
+    border-radius: 50px;
+    border: none;
+}
+
+/* What We Do Section */
+.wwd {
+    background-color: white;
+    padding: 80px 50px;
+}
+.wwd-icons img {
+    margin: 10px;
+}
+
+/* Results Section */
+.result-section {
+    padding: 80px 50px;
+    background-image: url(images/headphones_hero_2.jpg);
+}
+.result-section h2{
+    padding: 20px 50px;
+}
+.result-section p{
+    padding: 50px 50px;
+}
+
+/* Contact Form */
+.contact{
+    background-color: white;
+    padding: 100px 100px;
+}
+button{
+    color: white;
+    background-color: rgb(255, 102, 102);
+    padding: 20px 30px;
+    border-radius: 20px;
+    border: none;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: auto;
+}
+form input, form textarea {
+    margin: 10px 0;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+
+/* Footer */
+footer {
+    padding: 50px;
+    background-color: rgb(7, 22, 41);
+    color: white;
+    margin-top: 100px;
+    font-size: 1.2rem;
+}
+.social-media-icons{
+    margin-left: 800px;
+}
+.footer-image{
+    width: 40px;
+    align-content: normal;
+    
+}
+footer p{
+    text-align: bottom;
+}
+
+

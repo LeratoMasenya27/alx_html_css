@@ -46,3 +46,12 @@ button{
     border-radius: 50px;
     border: none;
 }
+
+/* What We Do Section */
+.wwd {
+    background-color: white;
+    padding: 80px 50px;
+}
+.wwd-icons img {
+    margin: 10px;
+}

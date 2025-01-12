@@ -27,6 +27,9 @@ nav a {
 nav a:hover{
     color: red;
 }
+.nav_toggle{
+    display: none;
+}
 
 /* Hero Section */
 .hero {
@@ -125,3 +128,89 @@ footer p{
 }
 
 
+/*Mobile Version*/
+@media screen and (max-width: 600px) {
+    body {
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    /* Stack header elements */
+    header {
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        text-align: center;
+        padding: 20px;
+    }
+
+    nav {
+        flex-direction: column;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    nav a {
+    display: block;
+    padding: 10px;
+    }
+
+    /* Hero section adjustments */
+    .hero h1 {
+        font-size: 22px; /* Reduce heading size */
+        text-align: center;
+    }
+
+    .hero h2 {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .hero button {
+        width: 100%;
+        padding: 12px;
+    }
+
+    /* What we do section */
+    .wwd-icons {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: 80px;
+        justify-content: center;
+    }
+
+    .wwd-icons img {
+        width: 50px;
+        margin: 10px;
+    }
+
+    /* Results section */
+    .results-icons {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .results-icons img {
+        width: 80px;
+        margin: 10px;
+    }
+
+    /* Contact form adjustments */
+    form {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    input, textarea {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 10px;
+    }
+
+    button {
+        width: 100%;
+        padding: 12px;
+    }
+}

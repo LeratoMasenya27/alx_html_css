@@ -12,6 +12,17 @@ This project is a fully functional **web page** built from scratch using **HTML*
 - **Hover & Active States** for links and buttons.
 - **Centered content with a max width of 1000px.**
 
+#### 📌 Font Resources
+
+- **Source Sans Pro**: [Download here](https://fonts.google.com/specimen/Source+Sans+Pro)
+- **Spin Cycle OT**: [Download here](#)
+
+#### 🎯 Design Guidelines
+
+- **Use exact fonts and colors** as specified in the design.
+- **Round floating values** if needed.
+- **Ensure responsiveness** for mobile view (width ≤ 480px).
+
 ## 📲 Responsive Design
 
 - **Switches to mobile version** at `480px` or less.

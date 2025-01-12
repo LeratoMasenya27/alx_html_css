@@ -92,3 +92,149 @@ form input, form textarea {
     border: none;
     border-radius: 5px;
 }
+
+/*Mobile Version*/
+@media screen and (max-width: 600px) {
+    /* General Styles */
+    body {
+        font-size: 14px;
+        padding: 3px;
+        margin: 6px 6px;
+        text-align: center;
+    }
+
+    /* Header */
+    header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    nav {
+        display: none;
+        flex-direction: column;
+        position: left;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        background-image: url(images/headphones_hero_1.jpg);
+        background-color: #0D1B2A;
+        text-align: center;
+        padding: 10px;
+    }
+
+    /* Show hamburger icon */
+    .hamburger {
+        display: block;
+        
+    }
+
+    .checkbox{
+        display: none;
+    }
+
+    /* Show menu when checkbox is checked */
+    #menu-toggle:checked + .hamburger + nav {
+        display: flex;
+    }
+   
+    /* Hero Section */
+    .hero {
+        padding: 50px 50px;
+    
+    }
+
+    .hero h1 {
+        font-size: 20px;
+        padding-top: 100px;
+    }
+
+    .hero h2 {
+        font-size: 15px;
+    }
+
+    .hero button {
+        width: 80%;
+        padding: 10px;
+        font-size: 16px;
+        border-radius: 20px;
+    }
+
+    .hero p {
+        font-size: 12px;
+        line-height: 1;
+    }
+
+    /* What We Do Section */
+    .wwd {
+        padding: 20px;
+    }
+
+    .wwd h2 {
+        font-size: 20px;
+    }
+
+    .wwd p {
+        font-size: 11px;
+        line-height: 1.5;
+    }
+
+    .wwd-icons {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 100%;
+        gap: 20px;
+    }
+
+    .wwd-icons img {
+        width: 100px;
+    }
+
+    /* Results Section */
+    .result-section {
+        padding: 150px 50px;
+      
+    }
+
+    .result-section h2 {
+        font-size: 18px;
+        margin-top: -160px;
+    }
+
+    .result-section p {
+        font-size: 7px;
+        line-height: 1.5;
+        margin-top: -80px;
+    }
+
+    .results-icons {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: -10px;
+        margin-top: -55px;
+        gap: 1px;
+        height: 400px;
+    }
+
+    /* Contact Section */
+    form {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    input, textarea {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 10px;
+        font-size: 14px;
+    }
+
+    button {
+        width: 110%;
+        padding: 10px;
+        font-size: 16px;
+        border-radius: 20px;
+    }
